@@ -1,0 +1,16 @@
+.Settings_each {
+  font-size: 22px;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Settings_each i {
+  margin-right: 20px;
+}
+
+.Settings_each_column:last-child {
+  opacity: 0.5;
+}

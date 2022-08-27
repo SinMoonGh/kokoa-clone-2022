@@ -1,0 +1,34 @@
+.More_screens .icon_row {
+  margin-top: 30px;
+}
+
+.Suggestions_part {
+  border-top: var(--border);
+  margin-top: 40px;
+  padding-top: 25px;
+}
+
+.Suggestions_kakao_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.Suggestions_icons {
+  display: flex;
+}
+
+.Suggestions_kakao_icons_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 10px;
+}

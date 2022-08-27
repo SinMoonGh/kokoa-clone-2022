@@ -1,0 +1,144 @@
+.Chats_screen {
+  background-color: #abc1d1;
+  height: 1000vh;
+}
+
+.Chats_screen .alt_header,
+.Chats_screen .status-bar {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+}
+.Chats_screen .status-bar {
+  z-index: 2;
+}
+
+.Chats_screen .alt_header {
+  margin-top: 25px;
+  z-index: 1;
+}
+
+.Main_Chats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 95px;
+}
+
+.Time_Stamp {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 8px 15px;
+}
+.Chats_Line {
+  display: flex;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.Chats_Line img {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.Chats_Part .Nic_Name {
+  opacity: 0.6;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.Chats_Part .Chats_Box {
+  font-size: 22px;
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 10px;
+}
+
+.Chats_Live {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Chats_Time {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.Chats_Line_own {
+  justify-content: flex-end;
+}
+.Chats_Line_own .Chats_Live {
+  flex-direction: row-reverse;
+}
+.Chats_Line_own .Chats_Box {
+  background-color: var(--yellow);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-left: 10px;
+}
+
+.Typing_button {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+.Typing_button .Typing_column:first-child {
+  width: 10%;
+}
+.Typing_button .Typing_column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.Typing_column input {
+  padding-left: 10px;
+  height: 30px;
+  width: 100%;
+  border: var(--border);
+  border-radius: 30px;
+}
+
+.Typing_column:last-child > i,
+.Typing_column:last-child button {
+  position: absolute;
+  right: 0px;
+  align-items: center;
+}
+
+.Typing_column:last-child > i {
+  top: 10px;
+  right: 60px;
+}
+
+.Typing_column:last-child button {
+  bottom: 5px;
+  right: -6px;
+  background-color: var(--yellow);
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+
+.Typing_column button:focus,
+.Typing_column button:active {
+  outline: none;
+}
+
+.Typing_column:last-child > i,
+.Typing_column:first-child i {
+  opacity: 0.5;
+}

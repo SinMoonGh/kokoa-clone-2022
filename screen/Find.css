@@ -1,0 +1,109 @@
+.Recommended_Friends {
+  margin-top: 30px;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+.Recommended_Friends span {
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.Open_Chat_header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+}
+
+.Open_post_column_members img {
+  height: 17px;
+  width: 17px;
+  margin-right: 6px;
+}
+
+.Open_post_column_title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.Open_post_column_HashTag {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.Open_post_column_members {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.divider {
+  width: 1px;
+  height: 17px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0px 7px;
+}
+
+.Open_post_column_members_Active {
+  color: palevioletred;
+}
+
+.Open_post_column_poto img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.Open_post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Open_post_column_poto {
+  position: relative;
+}
+
+.Open_post_column_poto_heart {
+  padding: 3px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+}
+
+.Open_post_column_poto_heart span {
+  margin-left: 3px;
+}
+
+.Open_post_column_poto_heart i:hover {
+  animation: Heart_Beat 1s ease-in-out infinite;
+}
+
+@keyframes Heart_Beat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
