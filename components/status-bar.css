@@ -1,0 +1,25 @@
+.status-bar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  padding: 5px 5px;
+}
+.status-bar_column:first-child span {
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 5px;
+}
+.status-bar_column {
+  width: 33%;
+}
+.status-bar_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.status-bar_column .h-6w-6 {
+  margin: 3px;
+}
