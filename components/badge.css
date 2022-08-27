@@ -1,0 +1,23 @@
+.badge {
+  background-color: red;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-small;
+}
+
+.More_badge {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border: 1px solid red;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: x-small;
+}
